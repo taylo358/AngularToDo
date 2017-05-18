@@ -17,7 +17,7 @@
         <div ng-controller="todoController">
             <form name="frm" ng-submit="addTodo()">
             <input type="text" name="newodo" ng-model="newTodo" required />
-                <button ng-disabled="frm.$invalid">Go</button>
+                <button ng-disabled="frm.$invalid">Add</button>
             </form>
             <button ng-click="clearCompleted()">Clear Completed</button>
             <ul>
